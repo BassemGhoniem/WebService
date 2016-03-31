@@ -7,8 +7,8 @@ from rest_framework import generics, permissions
 
 
 from .serializers import UserSerializer, PostSerializer
-#from .models import User, Post, Photo
+from .models import User, Post
 
-from.models import *
+#from.models import *
 
 #         return queryset.filter(post__pk=self.kwargs.get('pk'))

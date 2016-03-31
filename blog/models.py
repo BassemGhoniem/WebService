@@ -10,8 +10,8 @@ from django.contrib.auth.models import User
 
 
 
-# class User(AbstractUser):
-# 	pass
+class User(User):
+ 	pass
 
 class Post(models.Model):
 	author = models.ForeignKey(User , related_name='posts')
